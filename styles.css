@@ -1,0 +1,180 @@
+@import url(http://fonts.googleapis.com/css?family=Monsterrat:400,700);
+@import url(https://www.typography.com/css?family=Gotham);
+
+body {
+  color: #555;
+  margin: 0;
+
+  font-family: 'Gotham',
+  sans-serif;
+}
+
+#header {
+  background-color: #1181BD;
+  padding: 40px 0;
+}
+#header a {
+  color: white;
+  text-decoration: none;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#header a:hover {
+  color: #222;
+}
+
+
+#header-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#header-navv {
+  display: block;
+  float: right;
+  margin-top: 0;
+}
+#header-navv li {
+  display: inline;
+  padding-left: 20px;
+}
+#header-navv {
+  position: relative;
+  top: -23px;
+}
+#header-navv {
+  font-weight: 500;
+}
+
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+}
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+#header-nav {
+  font-weight: 500;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+#footer {
+  background-color: #2f2f2f;
+  padding: 50px 0;
+}
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#footer p {
+  color: white;
+}
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+a {
+  color: #1181BD;
+  text-decoration: none;
+}
+a:hover {
+  color: #FFA50A;
+}
+
+.post {
+  max-width: 100px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+
+.post-author img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+.post-author img {
+  border-radius: 50%;
+}
+.about-author img {
+  width: 250px;
+  height: 250px;
+}
+.about-author img {
+  border-radius: 50%;
+}
+
+.post-author span {
+  color: black;-
+  margin-left: 16px;
+  font-weight: 500;
+  padding: 0.5em;
+}
+
+.about-title {
+  text-shadow: 2px 2px #e2e2e2;
+}
+
+.secret-message {
+  max-width: 300px;
+  margin-right: 0;
+  font-weight: 600;
+
+  color: #1181BD;
+  position: relative;
+  top: -540px; left: 200px;
+}
+.secret-message:hover {
+  color: #333;
+}
+
+.post-date {
+  color: #D2D2D2;
+
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Gotham, Monsterrat, sans-serif;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+
+.post, .about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.about {
+  text-align: center;
+}
+
+.post-container:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+h4 {
+  font-family: Gotham, Monsterrat, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  color: #333;
+  text-shadow: 1px 1px #d8d8d8;
+}
+
+p {
+  line-height: 1.5;
+}
